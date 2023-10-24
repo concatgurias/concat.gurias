@@ -33,6 +33,7 @@ function checkForMatch() {
   if (win == 10) {    
     setTimeout(() => {
       win = 0;
+      cards.forEach(card => card.addEventListener('click', flipCard));
       cards.forEach(card => card.classList.remove('flip'));
       shuffle();
     }, 5000);    
@@ -41,7 +42,6 @@ function checkForMatch() {
 
 function disableCards() {
   win++;
-  console.log(win);
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
 
