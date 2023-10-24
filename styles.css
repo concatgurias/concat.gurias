@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  overflow: hidden; /* Isso desabilita completamente a rolagem, tanto vertical quanto horizontal */
   box-sizing: border-box;
 }
 
