@@ -1,7 +1,6 @@
 * {
   padding: 0;
-  margin: 0;
-  overflow: hidden; /* Isso desabilita completamente a rolagem, tanto vertical quanto horizontal */
+  margin: 0;  
   box-sizing: border-box;
 }
 
@@ -9,6 +8,7 @@ body {
   height: 100vh;
   display: flex;
   background: #060AB2;
+  overflow: hidden; /* Isso desabilita completamente a rolagem, tanto vertical quanto horizontal */
 }
 
 .memory-game {
